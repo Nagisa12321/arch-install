@@ -40,6 +40,7 @@ mv ./config_file/.tmux.conf ~/.tmux.conf
 # install nvim of CC
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 git clone https://github.com/HersonaREAL/dev-config
+sh ./nvim_setup.sh
 
 # setting vim 
 wget https://missing-semester-cn.github.io/2020/files/vimrc
